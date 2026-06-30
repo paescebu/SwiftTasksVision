@@ -31,6 +31,10 @@ let package = Package(
                 .linkedFramework("CoreVideo"),
                 .linkedFramework("AVFoundation"),
                 .linkedFramework("Accelerate"),
+                .linkedFramework("CoreGraphics"),
+                .linkedFramework("UIKit"),
+                .linkedFramework("CoreImage"),
+                .linkedFramework("ImageIO"),
                 .linkedLibrary("c++")
             ]
         ),
